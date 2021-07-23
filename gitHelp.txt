@@ -3,9 +3,13 @@ git config --global user.email "kishangopal@email.com"
 git config --list 
 
 git add fileName1 fileName2
-git add .
+
 git add --no-all
-git add -A
+git add . stages all
+git add -A #stages all
+git add -u #stages modified and deleted without new
+git add -f to ignore the files
+
 git status
 git status -sb
 
