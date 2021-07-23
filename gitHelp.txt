@@ -1,3 +1,5 @@
+git init
+
 git config --global user.name "Kishangopal"
 git config --global user.email "kishangopal@email.com"
 git config --list 
@@ -13,12 +15,33 @@ git add -f to ignore the files
 git status
 git status -sb
 
-
+## START git commit
 git commit -m "discription"
 git commit -am "discription"  #add and commit
 git commit -u -m "discription"
+man git commit
 
+	-a, --all stage modified/deleted files ignoring any not "added"ed
+	--ammend replace or update the last commit you made
+	-o, --only commit only from paths specified on the connand line
+		this disregards any staged files
+		it is the default mode if a path is included ion the command line'
+	-v, --verbse provides a diff in the commit message template
+	-F <file>	 ude tesst from < file> as Commit message	
+	-m to add message during the commit
+## END git commit
+
+
+git reset 
 
 git log
+git log -nl
 
+ls -la
 
+## START git Directory
+		git cat-file -p master^(tree) #
+## END git 	Directory
+
+£explore on 
+	git hook direcotry inside .git
