@@ -2,6 +2,19 @@ git config --global user.name "Kishangopal"
 git config --global user.email "kishangopal@email.com"
 git config --list 
 
+git add fileName1 fileName2
+git add .
+git add --no-all
+git add -A
+git status
+git status -sb
+
+
 git commit -m "discription"
+git commit -am "discription"
+git commit -u -m "discription"
+
 
 git log
+
+
