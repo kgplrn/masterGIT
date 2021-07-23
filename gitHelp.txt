@@ -15,7 +15,7 @@ git status -sb
 
 
 git commit -m "discription"
-git commit -am "discription"
+git commit -am "discription"  #add and commit
 git commit -u -m "discription"
 
 
