@@ -1,3 +1,7 @@
 git config --global user.name "Kishangopal"
 git config --global user.email "kishangopal@email.com"
 git config --list 
+
+git commit -m "discription"
+
+git log
