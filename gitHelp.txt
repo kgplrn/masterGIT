@@ -173,6 +173,13 @@
 	git blame# show the changes made by the file
 	bisect
 	
+	git reset --hard
+	git reset -soft HEAD~1
+	
+	git reflog -list ALL commits
+	
+	
+	
 ##END general commands
 --------------------------------------------------
 
@@ -206,9 +213,30 @@
 --------------------------------------------------
 ##START stash
 	
+	git stash
+	git stash apply stash@{1}
+	git stash list
+	/// save, apply, pop
 	
-
 ##END stash
+--------------------------------------------------
+--------------------------------------------------
+##START git aliases
+
+	git config --global alias.logo "log --oneline"
+	
+##END git aleiases
+--------------------------------------------------
+--------------------------------------------------
+##START GUI
+	
+	msysgit.github.io
+	www.sourcetreeapp.com
+	
+	git-cola
+		git-cola.github.io
+	
+##END GUI
 --------------------------------------------------
 --------------------------------------------------
 ##START exploration 
@@ -216,7 +244,8 @@
 	git hook direcotry inside .git
 	git log manual
 	altering history
-
+	git stash
+	
 ##END exploration
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
