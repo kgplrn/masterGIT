@@ -171,16 +171,24 @@
 	
 	git revert
 	git blame# show the changes made by the file
-
+	bisect
 	
 ##END general commands
 --------------------------------------------------
 
 --------------------------------------------------
+##START bisect
+
+	git bisect start
+	git bisect good
+	git bisect bad
+	git bisect reset
 
 
 
 
+
+##END bisect
 --------------------------------------------------
 
 --------------------------------------------------
