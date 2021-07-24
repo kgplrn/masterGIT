@@ -36,7 +36,7 @@ git reset
 
 git log
 git log -nl
-
+git remote add origin https://github.com/kgplrn/masterGIT.git
 ls -la
 
 ## START git Directory
