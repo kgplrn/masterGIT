@@ -43,5 +43,27 @@ ls -la
 		git cat-file -p master^(tree) #
 ## END git 	Directory
 
+## start Remote
+	Clone #Creates a new directory, establishes upstream remote traction, checkout of active branch
+	fetech #fetch will add the missing part from remote repository
+	pull #fetech and merge
+	
+	protocals: http,ssh, git
+		
+	git remote --add remoteName URL
+	git remote --rm remoteName
+	git remote -ename orig and newname
+	git remote --show
+## end remote
+
+## start remoteTrackingBranches
+	git remote add  - master name url
+	git remote add -t branchName name url
+	git remote add -f name url
+## end remoteTrackingBranches
+
+## start Branching
+	
+## end Branching
 £explore on 
 	git hook direcotry inside .git
