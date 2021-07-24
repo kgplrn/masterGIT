@@ -63,7 +63,18 @@ ls -la
 ## end remoteTrackingBranches
 
 ## start Branching
-	
+
+	git branch newbranchName
+	git checkout newbranchName
+	git checkout Master
+
+	git checkout -b hotfix
+
 ## end Branching
+
+
+
+
+
 £explore on 
 	git hook direcotry inside .git
