@@ -20,7 +20,11 @@
 --------------------------------------------------
 ##START git diff
 
-	##START git commit
+	git diff hash1 hash2 hash3
+	git diff hash1..hash2
+	git diff hash1...hash2
+	git diff --no-index
+	
 
 ##END git diff
 --------------------------------------------------
@@ -98,6 +102,8 @@
 	git remote --rm remoteName
 	git remote -ename orig and newname
 	git remote --show
+	
+	git push --set-upstream origin branchCheck
 
 ##END remote
 --------------------------------------------------
@@ -135,6 +141,8 @@
 	git log -nX(X is a +ve interger)
 	git log --all --decorate --oneline
 	//-g
+	
+	git log --format="%H" --since="1 week ago" --reverse | xargs -L 1 git show
 ##END Log
 --------------------------------------------------
 
@@ -162,9 +170,17 @@
 	git ls-files -u
 	
 	git revert
+	git blame# show the changes made by the file
 
 	
 ##END general commands
+--------------------------------------------------
+
+--------------------------------------------------
+
+
+
+
 --------------------------------------------------
 
 --------------------------------------------------
