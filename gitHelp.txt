@@ -184,18 +184,38 @@
 	git bisect bad
 	git bisect reset
 
-
-
-
-
 ##END bisect
 --------------------------------------------------
 
+--------------------------------------------------
+##START patches
+		
+	git format-patch  master --stdout>aNewUI.patch
+	git apply --stat aNewUI.patch
+	
+##END patches
+--------------------------------------------------
+--------------------------------------------------
+##START git submodules
+	
+	git submodule init
+	git submodule update
+	
+##END git submodules
+--------------------------------------------------
+--------------------------------------------------
+##START stash
+	
+	
+
+##END stash
+--------------------------------------------------
 --------------------------------------------------
 ##START exploration 
 
 	git hook direcotry inside .git
 	git log manual
+	altering history
 
 ##END exploration
 ----------------------------------------------------------------------------------------------------
